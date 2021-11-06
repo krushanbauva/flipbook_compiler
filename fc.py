@@ -309,7 +309,7 @@ def set_image_property(arg):
 		return [("width", width)]
 
 	if "opacity" in arg:
-		opacity = float(arg[arg.find("=")+1:].strip())
+		opacity = float(arg[arg.find("=")+1:arg.find("%")].strip())
 		return [("opacity", opacity)]
 
 	return []
