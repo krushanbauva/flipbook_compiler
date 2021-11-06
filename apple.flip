@@ -1,0 +1,9 @@
+[page]
+height=1920px
+width=1880px
+margin=0px 0px 600px 0px
+margin_color=#ffffff
+
+[sequence]
+01->20=>[man.png, (apple.png, {keep_aspect_ratio=true; start_position=(1000px, 200px); start_scale=20%; end_scale=20%; end_position=(1000px, 1550px);})]
+21->35=>[man.png, (apple.png, {keep_aspect_ratio=true; start_scale=20%; end_scale=1%; start_position=(1000px, 1550px); end_position=(1020px, 1600px);})]
