@@ -352,8 +352,12 @@ def get_image_properties(line):
 
 
 def print_help():
-	print("Printing help")
-
+	print("Usage: python3 fc.py <flipbook_name.flip> -o <output_filename>")
+	print()
+	print("Current version of the tool only supports .pdf and .avi as")
+	print("output file extension")
+	print()
+	print("Check the README.md file for more details on flipbook language")
 
 def print_version():
 	print("Version 1.0.0")
